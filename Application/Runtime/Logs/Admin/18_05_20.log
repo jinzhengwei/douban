@@ -1,0 +1,301 @@
+[ 2018-05-20T09:33:25+08:00 ] 127.0.0.1 /index.php/admin/goods/add.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.014855s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000689s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000053s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000115s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.071901s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.071965s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000362s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000529s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000572s ]
+
+[ 2018-05-20T09:36:35+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lists.html?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000755s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000850s ]
+SQL: SHOW COLUMNS FROM `market` [ RunTime:0.0248s ]
+SQL: SELECT * FROM `market` LIMIT 0,20   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000106s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000199s ]
+NOTIC: [8] Undefined index: name E:\php\htdocs\douban\Application\Runtime\Cache\Admin\01ea1095153273d82c3a5707a91462bc.php 第 32 行.
+NOTIC: [8] Undefined index: status E:\php\htdocs\douban\Application\Runtime\Cache\Admin\01ea1095153273d82c3a5707a91462bc.php 第 38 行.
+NOTIC: [8] Undefined index: status E:\php\htdocs\douban\Application\Runtime\Cache\Admin\01ea1095153273d82c3a5707a91462bc.php 第 39 行.
+NOTIC: [8] Undefined index: status E:\php\htdocs\douban\Application\Runtime\Cache\Admin\01ea1095153273d82c3a5707a91462bc.php 第 40 行.
+NOTIC: [8] Undefined index: major_id E:\php\htdocs\douban\Application\Runtime\Cache\Admin\01ea1095153273d82c3a5707a91462bc.php 第 69 行.
+NOTIC: [8] Undefined variable: cates E:\php\htdocs\douban\Application\Runtime\Cache\Admin\01ea1095153273d82c3a5707a91462bc.php 第 69 行.
+NOTIC: [8] Undefined index: status E:\php\htdocs\douban\Application\Runtime\Cache\Admin\01ea1095153273d82c3a5707a91462bc.php 第 73 行.
+NOTIC: [8] Undefined index: major_id E:\php\htdocs\douban\Application\Runtime\Cache\Admin\01ea1095153273d82c3a5707a91462bc.php 第 69 行.
+NOTIC: [8] Undefined variable: cates E:\php\htdocs\douban\Application\Runtime\Cache\Admin\01ea1095153273d82c3a5707a91462bc.php 第 69 行.
+NOTIC: [8] Undefined index: status E:\php\htdocs\douban\Application\Runtime\Cache\Admin\01ea1095153273d82c3a5707a91462bc.php 第 73 行.
+NOTIC: [8] Undefined index: major_id E:\php\htdocs\douban\Application\Runtime\Cache\Admin\01ea1095153273d82c3a5707a91462bc.php 第 69 行.
+NOTIC: [8] Undefined variable: cates E:\php\htdocs\douban\Application\Runtime\Cache\Admin\01ea1095153273d82c3a5707a91462bc.php 第 69 行.
+NOTIC: [8] Undefined index: status E:\php\htdocs\douban\Application\Runtime\Cache\Admin\01ea1095153273d82c3a5707a91462bc.php 第 73 行.
+NOTIC: [8] Undefined variable: page E:\php\htdocs\douban\Application\Runtime\Cache\Admin\01ea1095153273d82c3a5707a91462bc.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.135786s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.135853s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000489s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000553s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000816s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000884s ]
+
+[ 2018-05-20T09:37:46+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lists.html?name=j&status=all
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000519s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000612s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000680s ]
+SQL: SHOW COLUMNS FROM `market` [ RunTime:0.0821s ]
+SQL: SELECT * FROM `market` WHERE `name` LIKE '%j%' LIMIT 0,20   [ RunTime:0.0630s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+NOTIC: [8] Undefined index: major_id E:\php\htdocs\douban\Application\Runtime\Cache\Admin\01ea1095153273d82c3a5707a91462bc.php 第 69 行.
+NOTIC: [8] Undefined variable: cates E:\php\htdocs\douban\Application\Runtime\Cache\Admin\01ea1095153273d82c3a5707a91462bc.php 第 69 行.
+NOTIC: [8] Undefined index: status E:\php\htdocs\douban\Application\Runtime\Cache\Admin\01ea1095153273d82c3a5707a91462bc.php 第 73 行.
+NOTIC: [8] Undefined variable: page E:\php\htdocs\douban\Application\Runtime\Cache\Admin\01ea1095153273d82c3a5707a91462bc.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008266s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008353s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000608s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000657s ]
+
+[ 2018-05-20T09:53:29+08:00 ] 127.0.0.1 /Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000625s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000198s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000281s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.040259s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.040336s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001386s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001602s ]
+
+[ 2018-05-20T09:53:30+08:00 ] 127.0.0.1 /index.php/Admin/index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000644s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000202s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000281s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.106230s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.106353s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000353s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001026s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001161s ]
+
+[ 2018-05-20T09:53:31+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lists.html?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001029s ]
+SQL: SHOW COLUMNS FROM `market` [ RunTime:0.0181s ]
+SQL: SELECT * FROM `market` LIMIT 0,20   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000054s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000108s ]
+NOTIC: [8] Undefined index: name E:\php\htdocs\douban\Application\Runtime\Cache\Admin\01ea1095153273d82c3a5707a91462bc.php 第 32 行.
+NOTIC: [8] Undefined index: status E:\php\htdocs\douban\Application\Runtime\Cache\Admin\01ea1095153273d82c3a5707a91462bc.php 第 38 行.
+NOTIC: [8] Undefined index: status E:\php\htdocs\douban\Application\Runtime\Cache\Admin\01ea1095153273d82c3a5707a91462bc.php 第 39 行.
+NOTIC: [8] Undefined index: status E:\php\htdocs\douban\Application\Runtime\Cache\Admin\01ea1095153273d82c3a5707a91462bc.php 第 40 行.
+NOTIC: [8] Undefined index: major_id E:\php\htdocs\douban\Application\Runtime\Cache\Admin\01ea1095153273d82c3a5707a91462bc.php 第 69 行.
+NOTIC: [8] Undefined variable: cates E:\php\htdocs\douban\Application\Runtime\Cache\Admin\01ea1095153273d82c3a5707a91462bc.php 第 69 行.
+NOTIC: [8] Undefined index: major_id E:\php\htdocs\douban\Application\Runtime\Cache\Admin\01ea1095153273d82c3a5707a91462bc.php 第 69 行.
+NOTIC: [8] Undefined variable: cates E:\php\htdocs\douban\Application\Runtime\Cache\Admin\01ea1095153273d82c3a5707a91462bc.php 第 69 行.
+NOTIC: [8] Undefined index: major_id E:\php\htdocs\douban\Application\Runtime\Cache\Admin\01ea1095153273d82c3a5707a91462bc.php 第 69 行.
+NOTIC: [8] Undefined variable: cates E:\php\htdocs\douban\Application\Runtime\Cache\Admin\01ea1095153273d82c3a5707a91462bc.php 第 69 行.
+NOTIC: [8] Undefined variable: page E:\php\htdocs\douban\Application\Runtime\Cache\Admin\01ea1095153273d82c3a5707a91462bc.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.031965s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.032013s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000256s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000286s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000364s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000399s ]
+
+[ 2018-05-20T09:55:44+08:00 ] 127.0.0.1 /Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000531s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000586s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000186s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000249s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024067s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024140s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000315s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000888s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000997s ]
+
+[ 2018-05-20T09:55:44+08:00 ] 127.0.0.1 /index.php/Admin/index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000043s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001394s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000826s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000936s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000651s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000937s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.049015s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049104s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000336s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000391s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000711s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000809s ]
+
+[ 2018-05-20T09:55:46+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lists.html?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001535s ]
+SQL: SHOW COLUMNS FROM `market` [ RunTime:0.0193s ]
+SQL: SELECT * FROM `market` LIMIT 0,20   [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+NOTIC: [8] Undefined index: name E:\php\htdocs\douban\Application\Runtime\Cache\Admin\01ea1095153273d82c3a5707a91462bc.php 第 32 行.
+NOTIC: [8] Undefined index: status E:\php\htdocs\douban\Application\Runtime\Cache\Admin\01ea1095153273d82c3a5707a91462bc.php 第 38 行.
+NOTIC: [8] Undefined index: status E:\php\htdocs\douban\Application\Runtime\Cache\Admin\01ea1095153273d82c3a5707a91462bc.php 第 39 行.
+NOTIC: [8] Undefined index: status E:\php\htdocs\douban\Application\Runtime\Cache\Admin\01ea1095153273d82c3a5707a91462bc.php 第 40 行.
+NOTIC: [8] Undefined index: major_id E:\php\htdocs\douban\Application\Runtime\Cache\Admin\01ea1095153273d82c3a5707a91462bc.php 第 69 行.
+NOTIC: [8] Undefined variable: cates E:\php\htdocs\douban\Application\Runtime\Cache\Admin\01ea1095153273d82c3a5707a91462bc.php 第 69 行.
+NOTIC: [8] Undefined index: major_id E:\php\htdocs\douban\Application\Runtime\Cache\Admin\01ea1095153273d82c3a5707a91462bc.php 第 69 行.
+NOTIC: [8] Undefined variable: cates E:\php\htdocs\douban\Application\Runtime\Cache\Admin\01ea1095153273d82c3a5707a91462bc.php 第 69 行.
+NOTIC: [8] Undefined index: major_id E:\php\htdocs\douban\Application\Runtime\Cache\Admin\01ea1095153273d82c3a5707a91462bc.php 第 69 行.
+NOTIC: [8] Undefined variable: cates E:\php\htdocs\douban\Application\Runtime\Cache\Admin\01ea1095153273d82c3a5707a91462bc.php 第 69 行.
+NOTIC: [8] Undefined variable: page E:\php\htdocs\douban\Application\Runtime\Cache\Admin\01ea1095153273d82c3a5707a91462bc.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012332s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012397s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000328s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000362s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000477s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000516s ]
+
+[ 2018-05-20T10:01:38+08:00 ] 127.0.0.1 /Admin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000671s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000918s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001017s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000324s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000428s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.039247s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039401s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000999s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001073s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000942s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001044s ]
+
+[ 2018-05-20T10:01:38+08:00 ] 127.0.0.1 /index.php/Admin/index/main.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000570s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000682s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000778s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000238s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000334s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.072309s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.072402s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000491s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000993s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001160s ]
+
+[ 2018-05-20T10:01:39+08:00 ] 127.0.0.1 /index.php/Admin/Goods/lists.html?v=4.0
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000524s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000767s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000902s ]
+SQL: SHOW COLUMNS FROM `market` [ RunTime:0.0208s ]
+SQL: SELECT * FROM `market` LIMIT 0,20   [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000090s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000163s ]
+NOTIC: [8] Undefined index: name E:\php\htdocs\douban\Application\Runtime\Cache\Admin\01ea1095153273d82c3a5707a91462bc.php 第 32 行.
+NOTIC: [8] Undefined index: status E:\php\htdocs\douban\Application\Runtime\Cache\Admin\01ea1095153273d82c3a5707a91462bc.php 第 38 行.
+NOTIC: [8] Undefined index: status E:\php\htdocs\douban\Application\Runtime\Cache\Admin\01ea1095153273d82c3a5707a91462bc.php 第 39 行.
+NOTIC: [8] Undefined index: status E:\php\htdocs\douban\Application\Runtime\Cache\Admin\01ea1095153273d82c3a5707a91462bc.php 第 40 行.
+NOTIC: [8] Undefined index: major_id E:\php\htdocs\douban\Application\Runtime\Cache\Admin\01ea1095153273d82c3a5707a91462bc.php 第 69 行.
+NOTIC: [8] Undefined variable: cates E:\php\htdocs\douban\Application\Runtime\Cache\Admin\01ea1095153273d82c3a5707a91462bc.php 第 69 行.
+NOTIC: [8] Undefined index: major_id E:\php\htdocs\douban\Application\Runtime\Cache\Admin\01ea1095153273d82c3a5707a91462bc.php 第 69 行.
+NOTIC: [8] Undefined variable: cates E:\php\htdocs\douban\Application\Runtime\Cache\Admin\01ea1095153273d82c3a5707a91462bc.php 第 69 行.
+NOTIC: [8] Undefined index: major_id E:\php\htdocs\douban\Application\Runtime\Cache\Admin\01ea1095153273d82c3a5707a91462bc.php 第 69 行.
+NOTIC: [8] Undefined variable: cates E:\php\htdocs\douban\Application\Runtime\Cache\Admin\01ea1095153273d82c3a5707a91462bc.php 第 69 行.
+NOTIC: [8] Undefined variable: page E:\php\htdocs\douban\Application\Runtime\Cache\Admin\01ea1095153273d82c3a5707a91462bc.php 第 79 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.060739s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.060822s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000435s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000638s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000704s ]
+
