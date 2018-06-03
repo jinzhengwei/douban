@@ -55,22 +55,31 @@
                         <tr>
                             <th>ID</th>
                             <th>商品名字</th>
-                            <th>分类</th>
-                            <th>单价</th>
-                            <th>图片</th>
                             <th>简介</th>
+                            <th>图片</th>
+                            <th>单价</th>
+                            <th>标签</th>
                             <th>状态</th>
+                            <th>删除</th>
+                            <th>更改</th>
                         </tr>
                         </thead>
                         <tbody>
                         <?php if(is_array($lists)): $i = 0; $__LIST__ = $lists;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><tr class="gradeX">
                                 <td><?php echo ($vo["id"]); ?></td>
-                                <td><?php echo ($vo["name"]); ?></td>
-                                <td><?php echo ($cates[$vo['major_id']]); ?></td>
-                                <td><?php echo ($vo["price"]); ?></td>
-                               <td> <img src="/Public/Upload/<?php echo ($vo["img"]); ?>" height="200px" width="300px"></td>
+                                <td><?php echo ($vo["name"]); ?></td> 
                                 <td><?php echo ($vo["content"]); ?></td>
-                                <td><?php echo ($vo["status"]); ?></td>
+                                
+                               <td> <img src="/Public/Upload/<?php echo ($vo["img"]); ?>" height="200px" width="300px"></td>
+                               <td><?php echo ($vo["price"]); ?></td>
+                       
+                               <td><?php echo ($vo["tag"]); ?></td>
+                            
+                                <?php if(($vo["status"] == 0) OR ($vo["status"] == 2)): ?><td><a href="<?php echo U('admin/goods/online',array('id'=>$vo['id']));?>" target="_self">上线</a></td>
+                                <?php elseif($vo["status"] == 1): ?> <td><a href="<?php echo U('admin/goods/offline',array('id'=>$vo['id']));?>" target="_self">下线</a></td><?php endif; ?>
+                                <td><a href="<?php echo U('admin/goods/delete',array('id'=>$vo['id']));?>" target="_self">删除</td>
+                                <td><a href="<?php echo U('admin/goods/update',array('id'=>$vo['id']));?>" target="_self">修改</td>
+
                             </tr><?php endforeach; endif; else: echo "" ;endif; ?>
                         </tbody>
                          <!-- <tfoot> -->

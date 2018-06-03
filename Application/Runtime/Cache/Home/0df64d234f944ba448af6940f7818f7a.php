@@ -22,38 +22,38 @@
 		</div>
 	</div>
 	<div class="box-user clearfix">
-		<a href="javascript:void(0)"><i class="iconfont">&#xe61a;</i>购物车</a>
+		<a href="<?php echo U('home/car/lists');?>"><i class="iconfont">&#xe61a;</i>购物车</a>
 		<?php if(empty($_SESSION['me']) ): ?><a href="<?php echo U('home/user/login');?>"><i class="iconfont">&#xe60c;</i>登录</a>
 		<?php else: ?> 
-		<a href=''><i class="iconfont">&#xe60c;</i>我的中心</a>  
+		<a href="<?php echo U('home/user/userinfo');?>"><i class="iconfont">&#xe60c;</i>我的中心</a>  
 		<a href="<?php echo U('home/user/logout');?>"><i class="iconfont">&#xe60c;</i>退出</a><?php endif; ?>
 
 		
 	</div>
+	
 	<div class="box-list">
 		<div class="list-header">
 			新品首发
 		</div>
 		<div class="list-cntent clearfix">
-			<div>
-				
-					
+		<?php if(is_array($lists)): foreach($lists as $key=>$v): ?><div>
+				<a href="javascript:void(0)">
+					<div class="content-img">
+						<a href="<?php echo U('home/market/info',array('id'=>$v['id']));?>"><img src="/Public/Upload/<?php echo ($v["img"]); ?>" height="200px" width="300px"></a>
+					</div>
 					<div class="content-text">
-
-				<?php if(is_array($lists)): foreach($lists as $key=>$v): ?><a href="<?php echo U('home/market/info',array('id'=>$v['id']));?>"><img src="/Public/Upload/<?php echo ($v["img"]); ?>" height="200px" width="300px"></a>
-
-		    	<h3><?php echo ($v["name"]); ?></h3>
-		        <p><?php echo ($v["content"]); ?></p>
-		        <b><?php echo ($v["price"]); ?></b>
-		        <span>新品</span>
-		        </br><?php endforeach; endif; ?>	
-						
+						<h3><?php echo ($v["name"]); ?></h3>
+		        		<p><?php echo ($v["content"]); ?></p>
+		        		<b><?php echo ($v["price"]); ?></b>
+		        		<span style="border:1px solid <?php echo ($v["color"]); ?>"><?php echo ($v["tag"]); ?></span>
 					</div>
 				</a>
-			</div>
-
+			</div><?php endforeach; endif; ?>
+			
 		</div>
+	
 	</div>
+	
 	<div class="box-list">
 		<div class="list-header">
 			诗集小组

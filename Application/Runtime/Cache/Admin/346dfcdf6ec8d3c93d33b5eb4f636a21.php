@@ -28,21 +28,47 @@
                             <div class="form-group">
                                 <label class="col-sm-2 control-label">标题</label>
                                 <div class="col-sm-5">
-                                    <input type="text" class="form-control" name="title">
+                                    <input type="text" class="form-control" name="name">
                                 </div>
                             </div>
                             <div class="hr-line-dashed"></div>
-                            <div class="form-group">
-                                <label class="col-sm-2 control-label">价格</label>
+                            
+                             <div class="form-group">
+                                <label class="col-sm-2 control-label">简介</label>
                                 <div class="col-sm-5">
-                                    <input type="text" class="form-control" name="price">
+                                    <input type="text" class="form-control" name="content">
                                 </div>
                             </div>
                             <div class="hr-line-dashed"></div>
                             <div class="form-group">
                                 <label class="col-sm-2 control-label">图片</label>
                                 <div class="col-sm-5">
-                                    <input type="file" class="form-control" name="image">
+                                    <input type="file" class="form-control" name="img">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">价格</label>
+                                <div class="col-sm-5">
+                                    <input type="text" class="form-control" name="price">
+                                </div>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">标签</label>
+                                <div class="col-sm-10">
+                                    <?php if(is_array($data)): $i = 0; $__LIST__ = $data;if( count($__LIST__)==0 ) : echo "" ;else: foreach($__LIST__ as $key=>$vo): $mod = ($i % 2 );++$i;?><div class="checkbox i-checks">
+                                        <label>
+                                            <input type="checkbox" value="<?php echo ($vo["id"]); ?>" name="tags[]"> <span style="border:1px solid <?php echo ($vo["color"]); ?>"><?php echo ($vo["tag"]); ?></span> </label>
+                                    </div><?php endforeach; endif; else: echo "" ;endif; ?>
+                                </div>
+
+                            </div>
+                            <div class="hr-line-dashed"></div>
+                            
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">状态</label>
+                                <div class="col-sm-5">
+                                    <input type="text" class="form-control" name="status">
                                 </div>
                             </div>
                             <div class="hr-line-dashed"></div>

@@ -1,0 +1,280 @@
+[ 2018-06-01T18:05:52+08:00 ] 127.0.0.1 /index.php/home/car/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000318s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015955s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.021723s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.021830s ]
+SQL: SHOW COLUMNS FROM `car` [ RunTime:0.0243s ]
+SQL: SELECT * FROM `car` WHERE `user_id` = 1  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+NOTIC: [8] Undefined variable: good_id E:\php\htdocs\douban\Application\Runtime\Cache\Home\7db8c02ce2e9cee9cb56b01b657152ce.php 第 55 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.129298s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.129360s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.013368s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013420s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.013031s ]
+INFO: [ app_end ] --END-- [ RunTime:0.013082s ]
+
+[ 2018-06-01T18:06:00+08:00 ] 127.0.0.1 /index.php/home/car/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000409s ]
+SQL: SHOW COLUMNS FROM `car` [ RunTime:0.0147s ]
+SQL: SELECT * FROM `car` WHERE `user_id` = 1  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+NOTIC: [8] Undefined variable: good_id E:\php\htdocs\douban\Application\Runtime\Cache\Home\7db8c02ce2e9cee9cb56b01b657152ce.php 第 55 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009998s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010074s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000443s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000550s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000585s ]
+
+[ 2018-06-01T18:06:14+08:00 ] 127.0.0.1 /index.php/home/car/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000745s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000743s ]
+SQL: SHOW COLUMNS FROM `car` [ RunTime:0.0839s ]
+SQL: SELECT * FROM `car` WHERE `user_id` = 1  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+NOTIC: [8] Undefined variable: good_id E:\php\htdocs\douban\Application\Runtime\Cache\Home\7db8c02ce2e9cee9cb56b01b657152ce.php 第 55 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007536s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007621s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000551s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000584s ]
+
+[ 2018-06-01T18:06:18+08:00 ] 127.0.0.1 /index.php/home/pay/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000756s ]
+SQL: SHOW COLUMNS FROM `market` [ RunTime:0.0226s ]
+SQL: SELECT * FROM `market` WHERE `status` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0179s ]
+NOTIC: [2] Missing argument 1 for Home\Model\AddressModel::getLists(), called in E:\php\htdocs\douban\Application\Home\Controller\PayController.class.php on line 7 and defined E:\php\htdocs\douban\Application\Home\Model\AddressModel.class.php 第 5 行.
+NOTIC: [8] Undefined variable: where E:\php\htdocs\douban\Application\Home\Model\AddressModel.class.php 第 6 行.
+SQL: SELECT * FROM `address`  [ RunTime:0.0007s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000849s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000911s ]
+
+[ 2018-06-01T18:06:31+08:00 ] 127.0.0.1 /index.php/home/pay/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000290s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000384s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000432s ]
+SQL: SHOW COLUMNS FROM `market` [ RunTime:0.1111s ]
+SQL: SELECT * FROM `market` WHERE `status` = 1  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0140s ]
+NOTIC: [2] Missing argument 1 for Home\Model\AddressModel::getLists(), called in E:\php\htdocs\douban\Application\Home\Controller\PayController.class.php on line 7 and defined E:\php\htdocs\douban\Application\Home\Model\AddressModel.class.php 第 5 行.
+NOTIC: [8] Undefined variable: where E:\php\htdocs\douban\Application\Home\Model\AddressModel.class.php 第 6 行.
+SQL: SELECT * FROM `address`  [ RunTime:0.0004s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001013s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001071s ]
+
+[ 2018-06-01T18:13:42+08:00 ] 127.0.0.1 /index.php/home/pay/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001180s ]
+
+[ 2018-06-01T18:13:42+08:00 ] 127.0.0.1 /index.php/home/pay/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000848s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000934s ]
+
+[ 2018-06-01T18:14:21+08:00 ] 127.0.0.1 /index.php/home/pay/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000474s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
+SQL: SHOW COLUMNS FROM `market` [ RunTime:0.0228s ]
+SQL: SELECT * FROM `market` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0135s ]
+SQL: SELECT * FROM `address` WHERE `user_id` = 1  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000120s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018078s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018140s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000319s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000354s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000489s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000524s ]
+
+[ 2018-06-01T18:14:21+08:00 ] 127.0.0.1 /index.php/home/pay/images/p1956124.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000892s ]
+
+[ 2018-06-01T18:14:21+08:00 ] 127.0.0.1 /index.php/home/pay/images/zhifubao.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000611s ]
+
+[ 2018-06-01T18:14:21+08:00 ] 127.0.0.1 /index.php/home/pay/images/weixin.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000647s ]
+
+[ 2018-06-01T19:17:12+08:00 ] 127.0.0.1 /index.php/home/pay/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000448s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000558s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000618s ]
+SQL: SHOW COLUMNS FROM `market` [ RunTime:0.0175s ]
+SQL: SELECT * FROM `market` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0006s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `address` WHERE `user_id` = 1  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000091s ]
+NOTIC: [8] Undefined index: info E:\php\htdocs\douban\Application\Runtime\Cache\Home\1c56eb8ddcf920644e1a73a062ebaf59.php 第 19 行.
+NOTIC: [8] Undefined index: phone E:\php\htdocs\douban\Application\Runtime\Cache\Home\1c56eb8ddcf920644e1a73a062ebaf59.php 第 19 行.
+NOTIC: [8] Undefined index: province E:\php\htdocs\douban\Application\Runtime\Cache\Home\1c56eb8ddcf920644e1a73a062ebaf59.php 第 23 行.
+NOTIC: [8] Undefined index: city E:\php\htdocs\douban\Application\Runtime\Cache\Home\1c56eb8ddcf920644e1a73a062ebaf59.php 第 23 行.
+NOTIC: [8] Undefined index: area E:\php\htdocs\douban\Application\Runtime\Cache\Home\1c56eb8ddcf920644e1a73a062ebaf59.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018105s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018166s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000714s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000782s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001318s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001393s ]
+
+[ 2018-06-01T19:17:12+08:00 ] 127.0.0.1 /index.php/home/pay/images/p1956124.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000546s ]
+
+[ 2018-06-01T19:17:12+08:00 ] 127.0.0.1 /index.php/home/pay/images/zhifubao.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000643s ]
+
+[ 2018-06-01T19:17:12+08:00 ] 127.0.0.1 /index.php/home/pay/images/weixin.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000734s ]
+
+[ 2018-06-01T19:21:07+08:00 ] 127.0.0.1 /index.php/home/pay/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000569s ]
+SQL: SHOW COLUMNS FROM `market` [ RunTime:0.0173s ]
+SQL: SELECT * FROM `market` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `address` WHERE `user_id` = 1  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000100s ]
+NOTIC: [8] Undefined index: info E:\php\htdocs\douban\Application\Runtime\Cache\Home\1c56eb8ddcf920644e1a73a062ebaf59.php 第 19 行.
+NOTIC: [8] Undefined index: phone E:\php\htdocs\douban\Application\Runtime\Cache\Home\1c56eb8ddcf920644e1a73a062ebaf59.php 第 19 行.
+NOTIC: [8] Undefined index: province E:\php\htdocs\douban\Application\Runtime\Cache\Home\1c56eb8ddcf920644e1a73a062ebaf59.php 第 23 行.
+NOTIC: [8] Undefined index: city E:\php\htdocs\douban\Application\Runtime\Cache\Home\1c56eb8ddcf920644e1a73a062ebaf59.php 第 23 行.
+NOTIC: [8] Undefined index: area E:\php\htdocs\douban\Application\Runtime\Cache\Home\1c56eb8ddcf920644e1a73a062ebaf59.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.073029s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.073082s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000512s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000554s ]
+
+[ 2018-06-01T19:21:08+08:00 ] 127.0.0.1 /index.php/home/pay/images/weixin.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000482s ]
+
+[ 2018-06-01T19:21:08+08:00 ] 127.0.0.1 /index.php/home/pay/images/zhifubao.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000588s ]
+
+[ 2018-06-01T19:21:12+08:00 ] 127.0.0.1 /index.php/home/pay/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000531s ]
+SQL: SHOW COLUMNS FROM `market` [ RunTime:0.0442s ]
+SQL: SELECT * FROM `market` WHERE `id` = 0 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `address` [ RunTime:0.0102s ]
+SQL: SELECT * FROM `address` WHERE `user_id` = 1  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000087s ]
+NOTIC: [8] Undefined index: info E:\php\htdocs\douban\Application\Runtime\Cache\Home\1c56eb8ddcf920644e1a73a062ebaf59.php 第 19 行.
+NOTIC: [8] Undefined index: phone E:\php\htdocs\douban\Application\Runtime\Cache\Home\1c56eb8ddcf920644e1a73a062ebaf59.php 第 19 行.
+NOTIC: [8] Undefined index: province E:\php\htdocs\douban\Application\Runtime\Cache\Home\1c56eb8ddcf920644e1a73a062ebaf59.php 第 23 行.
+NOTIC: [8] Undefined index: city E:\php\htdocs\douban\Application\Runtime\Cache\Home\1c56eb8ddcf920644e1a73a062ebaf59.php 第 23 行.
+NOTIC: [8] Undefined index: area E:\php\htdocs\douban\Application\Runtime\Cache\Home\1c56eb8ddcf920644e1a73a062ebaf59.php 第 23 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007249s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007308s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000732s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000838s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000890s ]
+
+[ 2018-06-01T19:21:12+08:00 ] 127.0.0.1 /index.php/home/pay/images/weixin.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000514s ]
+
+[ 2018-06-01T19:21:12+08:00 ] 127.0.0.1 /index.php/home/pay/images/zhifubao.png
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000495s ]
+

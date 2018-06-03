@@ -1,0 +1,22 @@
+[ 2018-05-31T21:21:48+08:00 ] 127.0.0.1 /index.php/home/car/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.103919s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020090s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020168s ]
+SQL: SHOW COLUMNS FROM `car` [ RunTime:0.0309s ]
+SQL: SELECT * FROM `car` WHERE `user_id` = 1  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.309589s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.309659s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.013763s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013812s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.010101s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010156s ]
+

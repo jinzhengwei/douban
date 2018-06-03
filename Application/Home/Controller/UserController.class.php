@@ -44,5 +44,9 @@ class UserController extends Controller{
 		unset($_SESSION['me']);
 		$this->success('退出成功',U('home/market/lists'));;
 	}
+	public function userinfo(){
+		
+		$this->display();
+	}
 
 }

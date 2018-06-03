@@ -47,24 +47,37 @@
                         <tr>
                             <th>ID</th>
                             <th>商品名字</th>
-                            <th>分类</th>
-                            <th>单价</th>
-                            <th>图片</th>
                             <th>简介</th>
+                            <th>图片</th>
+                            <th>单价</th>
+                            <th>标签</th>
                             <th>状态</th>
+                            <th>删除</th>
+                            <th>更改</th>
                         </tr>
                         </thead>
                         <tbody>
                         <volist name="lists" id="vo">
+                        
                             <tr class="gradeX">
                                 <td>{$vo.id}</td>
-                                <td>{$vo.name}</td>
-                                <td>{$cates[$vo['major_id']]}</td>
-                                <td>{$vo.price}</td>
-                               <td> <img src="__PUBLIC__/Upload/{$vo.img}" height="200px" width="300px"></td>
+                                <td>{$vo.name}</td> 
                                 <td>{$vo.content}</td>
-                                <td>{$vo.status}</td>
+                                
+                               <td> <img src="__PUBLIC__/Upload/{$vo.img}" height="200px" width="300px"></td>
+                               <td>{$vo.price}</td>
+                       
+                               <td>{$vo.tag}</td>
+                            
+                                <if condition="($vo.status eq 0) OR ($vo.status eq 2)">
+                                <td><a href="{:U('admin/goods/online',array('id'=>$vo['id']))}" target="_self">上线</a></td>
+                                <elseif condition="$vo.status eq 1"/> <td><a href="{:U('admin/goods/offline',array('id'=>$vo['id']))}" target="_self">下线</a></td>
+                                </if>
+                                <td><a href="{:U('admin/goods/delete',array('id'=>$vo['id']))}" target="_self">删除</td>
+                                <td><a href="{:U('admin/goods/update',array('id'=>$vo['id']))}" target="_self">修改</td>
+
                             </tr>
+                         
                         </volist>
                         </tbody>
                          <!-- <tfoot> -->

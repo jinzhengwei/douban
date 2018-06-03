@@ -24,43 +24,42 @@
 		</div>
 	</div>
 	<div class="box-user clearfix">
-		<a href="javascript:void(0)"><i class="iconfont">&#xe61a;</i>购物车</a>
+		<a href="{:U('home/car/lists')}"><i class="iconfont">&#xe61a;</i>购物车</a>
 		<if condition="empty($_SESSION['me']) ">
 		<a href="{:U('home/user/login')}"><i class="iconfont">&#xe60c;</i>登录</a>
 		<else /> 
-		<a href=''><i class="iconfont">&#xe60c;</i>我的中心</a>  
+		<a href="{:U('home/user/userinfo')}"><i class="iconfont">&#xe60c;</i>我的中心</a>  
 		<a href="{:U('home/user/logout')}"><i class="iconfont">&#xe60c;</i>退出</a>
 		</if>
 
 		
 	</div>
+	
 	<div class="box-list">
 		<div class="list-header">
 			新品首发
 		</div>
 		<div class="list-cntent clearfix">
+		<foreach name='lists' item='v'>	
 			<div>
-				
-					
+				<a href="javascript:void(0)">
+					<div class="content-img">
+						<a href="{:U('home/market/info',array('id'=>$v['id']))}"><img src="__PUBLIC__/Upload/{$v.img}" height="200px" width="300px"></a>
+					</div>
 					<div class="content-text">
-
-				<foreach name='lists' item='v'>
-			   
-		       <a href="{:U('home/market/info',array('id'=>$v['id']))}"><img src="__PUBLIC__/Upload/{$v.img}" height="200px" width="300px"></a>
-
-		    	<h3>{$v.name}</h3>
-		        <p>{$v.content}</p>
-		        <b>{$v.price}</b>
-		        <span>新品</span>
-		        </br>
-		        </foreach>	
-						
+						<h3>{$v.name}</h3>
+		        		<p>{$v.content}</p>
+		        		<b>{$v.price}</b>
+		        		<span style="border:1px solid {$v.color}">{$v.tag}</span>
 					</div>
 				</a>
 			</div>
-
+		</foreach>
+			
 		</div>
+	
 	</div>
+	
 	<div class="box-list">
 		<div class="list-header">
 			诗集小组

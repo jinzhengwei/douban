@@ -13,11 +13,18 @@ class MarketModel extends Model{
 		return $add;
 	}
 	public function getLists(){
-		$data=$this->select();
+
+		$where=array('status'=>1);
+		$data=$this->where($where)->select();
 		return $data;
 	}
 	public function getInfoById($id){
-		$data=$this->where(array('id'=>$id))->find();
-		return $data;
+		$cache_key="goods_info_".$id;
+		$result=cache_get($cache_key);
+		if(empty($result)){
+			$result=$this->where(array('id'=>$id))->find();
+			cache_set($cache_key,$result,300);
+		}
+		return $result;
 	}
 }
